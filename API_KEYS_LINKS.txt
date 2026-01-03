@@ -1,0 +1,188 @@
+═══════════════════════════════════════════════════════════════
+  FREE API KEYS - Quick Access Links (All 100% Free)
+═══════════════════════════════════════════════════════════════
+
+⭐ PRIORITY 1: ElevenLabs (Best Voice Quality)
+───────────────────────────────────────────────────────────────
+🔗 Sign Up: https://elevenlabs.io
+📝 Free Tier: 10,000 characters/month (~15 videos)
+⏱️ Setup Time: 2 minutes
+💎 Quality: ⭐⭐⭐⭐⭐ (Human-like voice)
+
+Steps:
+1. Click "Get Started Free"
+2. Sign up with email
+3. Go to Profile → API Key
+4. Copy your key
+5. Run: export ELEVENLABS_API_KEY='your-key'
+
+───────────────────────────────────────────────────────────────
+
+⭐ PRIORITY 2: Pexels (HD Stock Videos)
+───────────────────────────────────────────────────────────────
+🔗 Sign Up: https://www.pexels.com/api/
+📝 Free Tier: 200 requests/hour (unlimited daily)
+⏱️ Setup Time: 1 minute
+💎 Quality: ⭐⭐⭐⭐⭐ (3M+ HD videos)
+
+Steps:
+1. Click "Get Started"
+2. Sign up (30 seconds)
+3. Your API key appears immediately
+4. Copy it
+5. Run: export PEXELS_API_KEY='your-key'
+
+───────────────────────────────────────────────────────────────
+
+⭐ PRIORITY 3: Ollama (AI Script Generation)
+───────────────────────────────────────────────────────────────
+🔗 Download: https://ollama.ai
+📝 Free Tier: Unlimited (runs on your computer)
+⏱️ Setup Time: 10 minutes (4GB download)
+💎 Quality: ⭐⭐⭐⭐⭐ (GPT-4 level)
+
+Steps:
+1. Visit https://ollama.ai
+2. Download for your OS
+3. Install
+4. Run: ollama pull llama2
+5. Run: ollama serve
+
+Or use our script:
+./setup_all_premium_free.sh
+
+───────────────────────────────────────────────────────────────
+
+⭐ OPTIONAL: Gemini Pro (Google AI Scripts)
+───────────────────────────────────────────────────────────────
+🔗 Console: https://ai.google.dev/
+📝 Tier: Uses your Google AI quota (Gemini Pro)
+⏱️ Setup Time: 1 minute
+💎 Quality: ⭐⭐⭐⭐⭐ (Excellent for script writing + image generation)
+
+Steps:
+1. Create or open a project at https://makersuite.google.com/app/apikey
+2. Copy your API key
+3. Run: export GEMINI_API_KEY='your-key'
+
+───────────────────────────────────────────────────────────────
+
+⭐ OPTIONAL: OpenAI (Scripts + Images)
+───────────────────────────────────────────────────────────────
+🔗 API Keys: https://platform.openai.com/account/api-keys
+🔗 Dashboard: https://platform.openai.com/
+📝 Tier: Paid (billed per usage)
+⏱️ Setup Time: 1 minute
+💎 Quality: ⭐⭐⭐⭐⭐ (GPT-4o + DALL·E 3)
+
+Steps:
+1. Log in to https://platform.openai.com/account/api-keys
+2. Copy your key (or access token)
+3. Run: export OPENAI_API_KEY='your-key'
+
+───────────────────────────────────────────────────────────────
+
+⭐ OPTIONAL: Pixabay (Extra Videos)
+───────────────────────────────────────────────────────────────
+🔗 Sign Up: https://pixabay.com/api/docs/
+📝 Free Tier: 5,000 requests/hour
+⏱️ Setup Time: 1 minute
+💎 Quality: ⭐⭐⭐⭐ (2M+ videos, 4K available)
+
+Steps:
+1. Click "Get API Key"
+2. Sign up
+3. API key shown immediately
+4. Copy it
+5. Run: export PIXABAY_API_KEY='your-key'
+
+───────────────────────────────────────────────────────────────
+
+💾 MAKE KEYS PERMANENT
+───────────────────────────────────────────────────────────────
+
+Add to ~/.bashrc so you don't need to set them every time:
+
+echo 'export ELEVENLABS_API_KEY="your-key"' >> ~/.bashrc
+echo 'export PEXELS_API_KEY="your-key"' >> ~/.bashrc
+echo 'export PIXABAY_API_KEY="your-key"' >> ~/.bashrc
+echo 'export GEMINI_API_KEY="your-key"' >> ~/.bashrc
+echo 'export OPENAI_API_KEY="your-key"' >> ~/.bashrc
+source ~/.bashrc
+
+───────────────────────────────────────────────────────────────
+
+✅ VERIFICATION
+───────────────────────────────────────────────────────────────
+
+Check if keys are set:
+echo $ELEVENLABS_API_KEY
+echo $PEXELS_API_KEY
+echo $PIXABAY_API_KEY
+echo $GEMINI_API_KEY
+echo $OPENAI_API_KEY
+
+Check if Ollama is running:
+ollama list
+
+───────────────────────────────────────────────────────────────
+
+🎯 MINIMUM SETUP FOR PREMIUM QUALITY
+───────────────────────────────────────────────────────────────
+
+You only NEED:
+1. Ollama (AI scripts) - 10 min setup
+2. ElevenLabs (premium voice) - 2 min signup
+
+These two alone will give you 95% of premium quality!
+
+Pexels and Pixabay are nice-to-have for real videos instead of
+generated backgrounds.
+
+───────────────────────────────────────────────────────────────
+
+⏱️ TOTAL SETUP TIME: 15 minutes (one-time)
+💰 TOTAL COST: $0.00
+🎬 VIDEOS PER MONTH: Unlimited*
+
+*ElevenLabs: ~15/month with free tier
+ Everything else: Truly unlimited
+
+───────────────────────────────────────────────────────────────
+
+🚀 AUTOMATED SETUP
+───────────────────────────────────────────────────────────────
+
+Too lazy to do it manually? Run:
+
+./setup_all_premium_free.sh
+
+This script will:
+✅ Install Ollama
+✅ Download Llama 2
+✅ Prompt you for API keys
+✅ Configure everything
+✅ Test the setup
+
+───────────────────────────────────────────────────────────────
+
+📞 SUPPORT LINKS
+───────────────────────────────────────────────────────────────
+
+ElevenLabs Docs:    https://elevenlabs.io/docs
+Pexels API Docs:    https://www.pexels.com/api/documentation/
+Pixabay API Docs:   https://pixabay.com/api/docs/
+Ollama Models:      https://ollama.ai/library
+
+───────────────────────────────────────────────────────────────
+
+💡 PRO TIP
+───────────────────────────────────────────────────────────────
+
+Start with just Ollama and ElevenLabs.
+
+These two give you the biggest quality jump.
+
+Add Pexels later when you want real video footage.
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,5 @@
+file '/home/mike/youtube_studio_generator/output/video_20251230_190117/clip_000.mp4'
+file '/home/mike/youtube_studio_generator/output/video_20251230_190117/clip_001.mp4'
+file '/home/mike/youtube_studio_generator/output/video_20251230_190117/clip_002.mp4'
+file '/home/mike/youtube_studio_generator/output/video_20251230_190117/clip_003.mp4'
+file '/home/mike/youtube_studio_generator/output/video_20251230_190117/clip_004.mp4'
